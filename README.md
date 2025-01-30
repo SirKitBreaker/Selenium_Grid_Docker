@@ -77,7 +77,7 @@ To run Selenium tests on this grid with TestNG:
         driver = new RemoteWebDriver(new URL(node), caps);
 
         // Open page
-        driver.get("https://www.training-support.net");
+        driver.get("https://training-support.net");
     }
     ```
 
@@ -103,3 +103,6 @@ To run Selenium tests on this grid with TestNG:
         </test>
     </suite>
   ```
+
+  ## Monitoring
+  View the status of browsers and the active sessions on [`localhost:4444`](http://localhost:4444)
