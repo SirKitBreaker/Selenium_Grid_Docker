@@ -26,7 +26,7 @@ public class SeleniumGridTest {
         driver = new RemoteWebDriver(new URL(node), caps);
 
         // Open page
-        driver.get("https://www.training-support.net");
+        driver.get("https://training-support.net");
     }
 
     @Test
